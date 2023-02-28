@@ -1,0 +1,73 @@
+.chapter p{
+    margin: 0;
+}
+
+.main-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #43281c;
+    font-size: 16px;
+    color: #fbf2c0;
+}
+.logo {
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+.main-box{
+    width: 50%;
+    background-color: #eee1d5;
+    padding: 20px;
+}
+
+.chapter::after {
+    content:"~";
+    font-size: 56px;
+    text-align: center;
+    display: block;
+    color: red;
+}
+
+.ex-box {
+    background-color:#43281c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 10px;
+    font-size:12px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px black;
+}
+
+.order-box {
+    display: grid;
+    grid-area: order-box;
+    background-color: red;
+    padding: 10px;
+    width: 50%;
+}
+
+.payment{
+    display: grid;
+    grid-area: payment;
+    background-color: blue;
+    padding: 10px;
+    width: 50%;
+
+}
+.total{
+    display: grid;
+    grid-area: nav-side;
+    background-color: green;
+    padding: 10px;
+    margin-bottom: auto;
+
+}
+
